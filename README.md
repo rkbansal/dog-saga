@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 #Dog-Saga
+
 This is just for the learning purpose of how redux-saga works. In this we are replacing the react logo with random dog images on click of a button, which basically trigger an action. Our Saga **Watcher** listens for this action and our **Worker** handle side-effects (fancy term for API calls and cache handling) and after performing the operation it triggers an action which will make changes to the store as per the result of side-effect. And As soon as our store get updated, our component will also.
 
 ## Available Scripts
